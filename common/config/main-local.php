@@ -3,9 +3,9 @@ return [
     'components' => [
         'db' => [
             'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=localhost;dbname=inlislite_v3;port=3309',
-            'username' => 'root',
-            'password' => '',
+            'dsn' => 'mysql:host=103.110.185.75;dbname=putuadisetiawan;port=3306',
+            'username' => 'putuadisetiawan',
+            'password' => '4diii35et14w44n',
             'charset' => 'utf8',
         ],
         'mailer' => [
