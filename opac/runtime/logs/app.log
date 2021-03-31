@@ -1,0 +1,1342 @@
+2021-02-16 08:16:36 [::1][-][0pv16mccsqkmo59tjokvcancm1][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Maaf Data Yang anda cari tidak ditemukan' in C:\xampp\htdocs\inlislite3\opac\controllers\DetailOpacController.php:746
+Stack trace:
+#0 [internal function]: opac\controllers\DetailOpacController->actionIndex()
+#1 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('', Array)
+#4 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('detail-opac', Array)
+#5 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\xampp\htdocs\inlislite3\opac\index.php(26): yii\base\Application->run()
+#7 {main}
+2021-02-16 08:16:34 [::1][-][0pv16mccsqkmo59tjokvcancm1][info][application] $_GET = [
+    'action' => 'logDownload'
+    'ID' => '1'
+]
+
+$_COOKIE = [
+    '_identity' => 'af3e2a0e951dec577795a0c5ffd91cd682a11d709a13aa959f261807f7b4af33a:2:{i:0;s:9:\"_identity\";i:1;s:17:\"[33,null,2592000]\";}'
+    'csm-sid' => '451-4918081-7019463'
+    '_backendInlislite' => '0df49c562cc855ecd48a8f93992d461f040701af139cffea6550e7f4c48d9521a:2:{i:0;s:17:\"_backendInlislite\";i:1;s:32:\"azckOi0flrFhQQAFbE5v3QaeK4COoGYw\";}'
+    'PHPSESSID' => '0uut7elblf039854vd5j31vk37'
+    '_csrf' => 'a47d9ea0d914d43e99f12dbd7acdf87ee9fafbf79a9b4d8d23ce61741110289ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"FcsV8-SLZ85n2z24yUan_Ck4xeBTHh3P\";}'
+    '_keanggotaanInlislite' => '7f48172d134f005c90e9f64e0c7cdd305198a6339b218567caf410f11e9f390aa:2:{i:0;s:21:\"_keanggotaanInlislite\";i:1;s:32:\"TdoLrDGUk0KP2Fiaeb1xwgVgK7A5ApJy\";}'
+    '_LKDInlislite' => '3f9e1eb8fbae22deac9ccf5cc91ae0256925d6037f48f076802733213f06aee3a:2:{i:0;s:13:\"_LKDInlislite\";i:1;s:32:\"Ugwr2dKDwvjfRTQ_hE0A3y33fzlE7Bjy\";}'
+    '_OpacInlislite' => '76260e4a4f952275ac097df442d755f0fd7356f77f4d9b17d6b50cf53012b0f3a:2:{i:0;s:14:\"_OpacInlislite\";i:1;s:32:\"b7ifx_6qKUubXbgNgag3jcJeImOeP0HY\";}'
+    'backendSession' => 'epq0uf3kdki93qef0pgbbu9d63'
+    'keanggotaanSession' => '0pv16mccsqkmo59tjokvcancm1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/inlislite3/opac/detail-opac?id=1'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8123'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_X_CSRF_TOKEN' => 'RHFYblJVUDQmRjEIKgpmRQ8kLQwKNzd6IxA/XTg2GlENHBcLAmUYbQ=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ORIGIN' => 'http://localhost:8123'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8123/inlislite3/opac/detail-opac?id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity=af3e2a0e951dec577795a0c5ffd91cd682a11d709a13aa959f261807f7b4af33a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A17%3A%22%5B33%2Cnull%2C2592000%5D%22%3B%7D; csm-sid=451-4918081-7019463; _backendInlislite=0df49c562cc855ecd48a8f93992d461f040701af139cffea6550e7f4c48d9521a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_backendInlislite%22%3Bi%3A1%3Bs%3A32%3A%22azckOi0flrFhQQAFbE5v3QaeK4COoGYw%22%3B%7D; PHPSESSID=0uut7elblf039854vd5j31vk37; _csrf=a47d9ea0d914d43e99f12dbd7acdf87ee9fafbf79a9b4d8d23ce61741110289ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FcsV8-SLZ85n2z24yUan_Ck4xeBTHh3P%22%3B%7D; _keanggotaanInlislite=7f48172d134f005c90e9f64e0c7cdd305198a6339b218567caf410f11e9f390aa%3A2%3A%7Bi%3A0%3Bs%3A21%3A%22_keanggotaanInlislite%22%3Bi%3A1%3Bs%3A32%3A%22TdoLrDGUk0KP2Fiaeb1xwgVgK7A5ApJy%22%3B%7D; _LKDInlislite=3f9e1eb8fbae22deac9ccf5cc91ae0256925d6037f48f076802733213f06aee3a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_LKDInlislite%22%3Bi%3A1%3Bs%3A32%3A%22Ugwr2dKDwvjfRTQ_hE0A3y33fzlE7Bjy%22%3B%7D; _OpacInlislite=76260e4a4f952275ac097df442d755f0fd7356f77f4d9b17d6b50cf53012b0f3a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_OpacInlislite%22%3Bi%3A1%3Bs%3A32%3A%22b7ifx_6qKUubXbgNgag3jcJeImOeP0HY%22%3B%7D; backendSession=epq0uf3kdki93qef0pgbbu9d63; keanggotaanSession=0pv16mccsqkmo59tjokvcancm1'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\laragon\\bin\\php\\php-7.2.19-Win32-VC15-x64;C:\\ProgramData\\ComposerSetup\\bin;C:\\flutter\\bin;;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Users\\ipas\\AppData\\Local\\Programs\\Python\\Python38\\Scripts\\;C:\\Users\\ipas\\AppData\\Local\\Programs\\Python\\Python38\\;C:\\laragon\\bin;C:\\laragon\\bin\\apache\\httpd-2.4.35-win64-VC15\\bin;C:\\laragon\\bin\\composer;C:\\laragon\\bin\\git\\bin;C:\\laragon\\bin\\git\\cmd;C:\\laragon\\bin\\git\\mingw64\\bin;C:\\laragon\\bin\\git\\usr\\bin;C:\\laragon\\bin\\laragon\\utils;C:\\laragon\\bin\\mysql\\mysql-5.7.24-winx64\\bin;C:\\laragon\\bin\\nginx\\nginx-1.16.0;C:\\laragon\\bin\\ngrok;C:\\laragon\\bin\\nodejs\\node-v12;C:\\laragon\\bin\\notepad++;C:\\laragon\\bin\\php\\php-7.2.19-Win32-VC15-x64;C:\\laragon\\bin\\putty;C:\\laragon\\bin\\redis\\redis-x64-3.2.100;C:\\laragon\\bin\\telnet;C:\\laragon\\usr\\bin;C:\\Users\\ipas\\AppData\\Local\\Yarn\\config\\global\\node_modules\\.bin;C:\\Users\\ipas\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\ipas\\AppData\\Roaming\\npm;C:\\Users\\ipas\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\heroku\\bin;C:\\Users\\ipas\\AppData\\Local\\Android\\Sdk\\platform-tools;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19 Server at localhost Port 8123</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8123'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/inlislite3/opac/index.php'
+    'REMOTE_PORT' => '54452'
+    'REDIRECT_QUERY_STRING' => 'action=logDownload&ID=1'
+    'REDIRECT_URL' => 'http://localhost:8123/inlislite3/opac/detail-opac?action=logDownload&ID=1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'action=logDownload&ID=1'
+    'REQUEST_URI' => '/inlislite3/opac/detail-opac?action=logDownload&ID=1'
+    'SCRIPT_NAME' => '/inlislite3/opac/index.php'
+    'PHP_SELF' => '/inlislite3/opac/index.php'
+    'REQUEST_TIME_FLOAT' => 1613438194.221
+    'REQUEST_TIME' => 1613438194
+]
+2021-02-16 15:09:24 [::1][-][pn16i6qr0s6ujgiisbo8a3a063][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Maaf Data Yang anda cari tidak ditemukan' in C:\xampp\htdocs\inlislite3\opac\controllers\DetailOpacController.php:746
+Stack trace:
+#0 [internal function]: opac\controllers\DetailOpacController->actionIndex()
+#1 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('', Array)
+#4 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('detail-opac', Array)
+#5 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\xampp\htdocs\inlislite3\opac\index.php(26): yii\base\Application->run()
+#7 {main}
+2021-02-16 15:09:23 [::1][-][pn16i6qr0s6ujgiisbo8a3a063][info][application] $_GET = [
+    'action' => 'logDownload'
+    'ID' => '1'
+]
+
+$_COOKIE = [
+    'csm-sid' => '451-4918081-7019463'
+    '_backendInlislite' => '0df49c562cc855ecd48a8f93992d461f040701af139cffea6550e7f4c48d9521a:2:{i:0;s:17:\"_backendInlislite\";i:1;s:32:\"azckOi0flrFhQQAFbE5v3QaeK4COoGYw\";}'
+    'PHPSESSID' => '0uut7elblf039854vd5j31vk37'
+    '_keanggotaanInlislite' => '7f48172d134f005c90e9f64e0c7cdd305198a6339b218567caf410f11e9f390aa:2:{i:0;s:21:\"_keanggotaanInlislite\";i:1;s:32:\"TdoLrDGUk0KP2Fiaeb1xwgVgK7A5ApJy\";}'
+    '_LKDInlislite' => '3f9e1eb8fbae22deac9ccf5cc91ae0256925d6037f48f076802733213f06aee3a:2:{i:0;s:13:\"_LKDInlislite\";i:1;s:32:\"Ugwr2dKDwvjfRTQ_hE0A3y33fzlE7Bjy\";}'
+    '_OpacInlislite' => '76260e4a4f952275ac097df442d755f0fd7356f77f4d9b17d6b50cf53012b0f3a:2:{i:0;s:14:\"_OpacInlislite\";i:1;s:32:\"b7ifx_6qKUubXbgNgag3jcJeImOeP0HY\";}'
+    'peminjamanmandiri' => 'a68355080d3dcbb59960569df9968adf350ef18f0544e753745ea445952a5994a:2:{i:0;s:17:\"peminjamanmandiri\";i:1;s:32:\"X0Z5I1f_ZxGSuB0KMXIW0jL5lhA09BHn\";}'
+    'pengembalianmandiri' => 'b8fedd7d6440913c8004ade569594c134a8201e8328dc67cf6689333edcb0b5aa:2:{i:0;s:19:\"pengembalianmandiri\";i:1;s:32:\"ZU6X9ql13mEDCM0MyHIY1LhRCTtSIp6v\";}'
+    'keanggotaanSession' => 'pn16i6qr0s6ujgiisbo8a3a063'
+    '_csrf' => 'e34dab5ecc061d80ca0aeac5f291e2451c46df8d7d5e6ab6cf971330cc4b44b0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ji3QMlS07N6L_IckaJCOIA0dLA2zm0jA\";}'
+    'usersSetLocPmnjmanMandiri' => 'dbb44a5366a37ea3ebd61837b14149baec30a136729da7301b1b313cdd484154a:2:{i:0;s:25:\"usersSetLocPmnjmanMandiri\";i:1;O:19:\"common\\models\\Users\":11:{s:15:\"currentPassword\";N;s:11:\"newPassword\";N;s:18:\"confirmNewPassword\";N;s:36:\"\0yii\\db\\BaseActiveRecord\0_attributes\";a:2:{s:8:\"username\";s:11:\"adisetiawan\";s:2:\"ID\";i:47;}s:39:\"\0yii\\db\\BaseActiveRecord\0_oldAttributes\";a:2:{s:8:\"username\";s:11:\"adisetiawan\";s:2:\"ID\";i:47;}s:33:\"\0yii\\db\\BaseActiveRecord\0_related\";a:0:{}s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:2:{s:12:\"beforeInsert\";a:1:{i:0;a:2:{i:0;a:2:{i:0;O:31:\"yii\\behaviors\\TimestampBehavior\":5:{s:18:\"createdAtAttribute\";s:10:\"created_at\";s:18:\"updatedAtAttribute\";s:10:\"updated_at\";s:5:\"value\";N;s:10:\"attributes\";a:2:{s:12:\"beforeInsert\";a:2:{i:0;s:10:\"created_at\";i:1;s:10:\"updated_at\";}s:12:\"beforeUpdate\";s:10:\"updated_at\";}s:5:\"owner\";r:3;}i:1;s:18:\"evaluateAttributes\";}i:1;N;}}s:12:\"beforeUpdate\";a:1:{i:0;a:2:{i:0;a:2:{i:0;r:21;i:1;s:18:\"evaluateAttributes\";}i:1;N;}}}s:30:\"\0yii\\base\\Component\0_behaviors\";a:1:{i:0;r:21;}}}'
+    'usersIDPmnjmanMandiri' => 'd540d561848fb1e777a2f0d7ef09baa12a77e7377e4b7a784f2978845ccc447da:2:{i:0;s:21:\"usersIDPmnjmanMandiri\";i:1;i:47;}'
+    'location_peminjamanmandiri_id' => 'e91f4a807d968808a6080b66e8caabba5d77d15ac512f5d249008abe18731696a:2:{i:0;s:29:\"location_peminjamanmandiri_id\";i:1;s:3:\"466\";}'
+    'location_detail_peminjamanmandiri' => 'be63068abca6f05e6553e7359e239bf66d9f295302c4db51be7b4aac23e77cf6a:2:{i:0;s:33:\"location_detail_peminjamanmandiri\";i:1;a:4:{s:4:\"Name\";s:18:\"Perpustakaan Pusat\";s:2:\"ID\";s:1:\"1\";s:4:\"Code\";s:5:\"PUSAT\";s:7:\"Address\";s:18:\"Perpustakaan Pusat\";}}'
+    'backendSession' => 'mjr5ravhtb0ojslgicqhq591i2'
+    '_identity' => 'af3e2a0e951dec577795a0c5ffd91cd682a11d709a13aa959f261807f7b4af33a:2:{i:0;s:9:\"_identity\";i:1;s:17:\"[33,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/inlislite3/opac/detail-opac?id=1'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8123'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_X_CSRF_TOKEN' => 'QlNhcFQ2QVcgZAgWLGl3JgkGFBIMVCYZJTIGQz5VCzILPi4VBAYJDg=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ORIGIN' => 'http://localhost:8123'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8123/inlislite3/opac/detail-opac?id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'csm-sid=451-4918081-7019463; _backendInlislite=0df49c562cc855ecd48a8f93992d461f040701af139cffea6550e7f4c48d9521a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_backendInlislite%22%3Bi%3A1%3Bs%3A32%3A%22azckOi0flrFhQQAFbE5v3QaeK4COoGYw%22%3B%7D; PHPSESSID=0uut7elblf039854vd5j31vk37; _keanggotaanInlislite=7f48172d134f005c90e9f64e0c7cdd305198a6339b218567caf410f11e9f390aa%3A2%3A%7Bi%3A0%3Bs%3A21%3A%22_keanggotaanInlislite%22%3Bi%3A1%3Bs%3A32%3A%22TdoLrDGUk0KP2Fiaeb1xwgVgK7A5ApJy%22%3B%7D; _LKDInlislite=3f9e1eb8fbae22deac9ccf5cc91ae0256925d6037f48f076802733213f06aee3a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_LKDInlislite%22%3Bi%3A1%3Bs%3A32%3A%22Ugwr2dKDwvjfRTQ_hE0A3y33fzlE7Bjy%22%3B%7D; _OpacInlislite=76260e4a4f952275ac097df442d755f0fd7356f77f4d9b17d6b50cf53012b0f3a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_OpacInlislite%22%3Bi%3A1%3Bs%3A32%3A%22b7ifx_6qKUubXbgNgag3jcJeImOeP0HY%22%3B%7D; peminjamanmandiri=a68355080d3dcbb59960569df9968adf350ef18f0544e753745ea445952a5994a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22peminjamanmandiri%22%3Bi%3A1%3Bs%3A32%3A%22X0Z5I1f_ZxGSuB0KMXIW0jL5lhA09BHn%22%3B%7D; pengembalianmandiri=b8fedd7d6440913c8004ade569594c134a8201e8328dc67cf6689333edcb0b5aa%3A2%3A%7Bi%3A0%3Bs%3A19%3A%22pengembalianmandiri%22%3Bi%3A1%3Bs%3A32%3A%22ZU6X9ql13mEDCM0MyHIY1LhRCTtSIp6v%22%3B%7D; keanggotaanSession=pn16i6qr0s6ujgiisbo8a3a063; _csrf=e34dab5ecc061d80ca0aeac5f291e2451c46df8d7d5e6ab6cf971330cc4b44b0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ji3QMlS07N6L_IckaJCOIA0dLA2zm0jA%22%3B%7D; usersSetLocPmnjmanMandiri=dbb44a5366a37ea3ebd61837b14149baec30a136729da7301b1b313cdd484154a%3A2%3A%7Bi%3A0%3Bs%3A25%3A%22usersSetLocPmnjmanMandiri%22%3Bi%3A1%3BO%3A19%3A%22common%5Cmodels%5CUsers%22%3A11%3A%7Bs%3A15%3A%22currentPassword%22%3BN%3Bs%3A11%3A%22newPassword%22%3BN%3Bs%3A18%3A%22confirmNewPassword%22%3BN%3Bs%3A36%3A%22%00yii%5Cdb%5CBaseActiveRecord%00_attributes%22%3Ba%3A2%3A%7Bs%3A8%3A%22username%22%3Bs%3A11%3A%22adisetiawan%22%3Bs%3A2%3A%22ID%22%3Bi%3A47%3B%7Ds%3A39%3A%22%00yii%5Cdb%5CBaseActiveRecord%00_oldAttributes%22%3Ba%3A2%3A%7Bs%3A8%3A%22username%22%3Bs%3A11%3A%22adisetiawan%22%3Bs%3A2%3A%22ID%22%3Bi%3A47%3B%7Ds%3A33%3A%22%00yii%5Cdb%5CBaseActiveRecord%00_related%22%3Ba%3A0%3A%7B%7Ds%3A23%3A%22%00yii%5Cbase%5CModel%00_errors%22%3BN%3Bs%3A27%3A%22%00yii%5Cbase%5CModel%00_validators%22%3BN%3Bs%3A25%3A%22%00yii%5Cbase%5CModel%00_scenario%22%3Bs%3A7%3A%22default%22%3Bs%3A27%3A%22%00yii%5Cbase%5CComponent%00_events%22%3Ba%3A2%3A%7Bs%3A12%3A%22beforeInsert%22%3Ba%3A1%3A%7Bi%3A0%3Ba%3A2%3A%7Bi%3A0%3Ba%3A2%3A%7Bi%3A0%3BO%3A31%3A%22yii%5Cbehaviors%5CTimestampBehavior%22%3A5%3A%7Bs%3A18%3A%22createdAtAttribute%22%3Bs%3A10%3A%22created_at%22%3Bs%3A18%3A%22updatedAtAttribute%22%3Bs%3A10%3A%22updated_at%22%3Bs%3A5%3A%22value%22%3BN%3Bs%3A10%3A%22attributes%22%3Ba%3A2%3A%7Bs%3A12%3A%22beforeInsert%22%3Ba%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22created_at%22%3Bi%3A1%3Bs%3A10%3A%22updated_at%22%3B%7Ds%3A12%3A%22beforeUpdate%22%3Bs%3A10%3A%22updated_at%22%3B%7Ds%3A5%3A%22owner%22%3Br%3A3%3B%7Di%3A1%3Bs%3A18%3A%22evaluateAttributes%22%3B%7Di%3A1%3BN%3B%7D%7Ds%3A12%3A%22beforeUpdate%22%3Ba%3A1%3A%7Bi%3A0%3Ba%3A2%3A%7Bi%3A0%3Ba%3A2%3A%7Bi%3A0%3Br%3A21%3Bi%3A1%3Bs%3A18%3A%22evaluateAttributes%22%3B%7Di%3A1%3BN%3B%7D%7D%7Ds%3A30%3A%22%00yii%5Cbase%5CComponent%00_behaviors%22%3Ba%3A1%3A%7Bi%3A0%3Br%3A21%3B%7D%7D%7D; usersIDPmnjmanMandiri=d540d561848fb1e777a2f0d7ef09baa12a77e7377e4b7a784f2978845ccc447da%3A2%3A%7Bi%3A0%3Bs%3A21%3A%22usersIDPmnjmanMandiri%22%3Bi%3A1%3Bi%3A47%3B%7D; location_peminjamanmandiri_id=e91f4a807d968808a6080b66e8caabba5d77d15ac512f5d249008abe18731696a%3A2%3A%7Bi%3A0%3Bs%3A29%3A%22location_peminjamanmandiri_id%22%3Bi%3A1%3Bs%3A3%3A%22466%22%3B%7D; location_detail_peminjamanmandiri=be63068abca6f05e6553e7359e239bf66d9f295302c4db51be7b4aac23e77cf6a%3A2%3A%7Bi%3A0%3Bs%3A33%3A%22location_detail_peminjamanmandiri%22%3Bi%3A1%3Ba%3A4%3A%7Bs%3A4%3A%22Name%22%3Bs%3A18%3A%22Perpustakaan+Pusat%22%3Bs%3A2%3A%22ID%22%3Bs%3A1%3A%221%22%3Bs%3A4%3A%22Code%22%3Bs%3A5%3A%22PUSAT%22%3Bs%3A7%3A%22Address%22%3Bs%3A18%3A%22Perpustakaan+Pusat%22%3B%7D%7D; backendSession=mjr5ravhtb0ojslgicqhq591i2; _identity=af3e2a0e951dec577795a0c5ffd91cd682a11d709a13aa959f261807f7b4af33a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A17%3A%22%5B33%2Cnull%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\laragon\\bin\\php\\php-7.2.19-Win32-VC15-x64;C:\\ProgramData\\ComposerSetup\\bin;C:\\flutter\\bin;;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Users\\ipas\\AppData\\Local\\Programs\\Python\\Python38\\Scripts\\;C:\\Users\\ipas\\AppData\\Local\\Programs\\Python\\Python38\\;C:\\laragon\\bin;C:\\laragon\\bin\\apache\\httpd-2.4.35-win64-VC15\\bin;C:\\laragon\\bin\\composer;C:\\laragon\\bin\\git\\bin;C:\\laragon\\bin\\git\\cmd;C:\\laragon\\bin\\git\\mingw64\\bin;C:\\laragon\\bin\\git\\usr\\bin;C:\\laragon\\bin\\laragon\\utils;C:\\laragon\\bin\\mysql\\mysql-5.7.24-winx64\\bin;C:\\laragon\\bin\\nginx\\nginx-1.16.0;C:\\laragon\\bin\\ngrok;C:\\laragon\\bin\\nodejs\\node-v12;C:\\laragon\\bin\\notepad++;C:\\laragon\\bin\\php\\php-7.2.19-Win32-VC15-x64;C:\\laragon\\bin\\putty;C:\\laragon\\bin\\redis\\redis-x64-3.2.100;C:\\laragon\\bin\\telnet;C:\\laragon\\usr\\bin;C:\\Users\\ipas\\AppData\\Local\\Yarn\\config\\global\\node_modules\\.bin;C:\\Users\\ipas\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\ipas\\AppData\\Roaming\\npm;C:\\Users\\ipas\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\heroku\\bin;C:\\Users\\ipas\\AppData\\Local\\Android\\Sdk\\platform-tools;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19 Server at localhost Port 8123</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8123'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/inlislite3/opac/index.php'
+    'REMOTE_PORT' => '60854'
+    'REDIRECT_QUERY_STRING' => 'action=logDownload&ID=1'
+    'REDIRECT_URL' => 'http://localhost:8123/inlislite3/opac/detail-opac?action=logDownload&ID=1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'action=logDownload&ID=1'
+    'REQUEST_URI' => '/inlislite3/opac/detail-opac?action=logDownload&ID=1'
+    'SCRIPT_NAME' => '/inlislite3/opac/index.php'
+    'PHP_SELF' => '/inlislite3/opac/index.php'
+    'REQUEST_TIME_FLOAT' => 1613462963.008
+    'REQUEST_TIME' => 1613462963
+]
+2021-03-27 10:01:26 [::1][2][g2m2al995pqac0ji83fs6mbme4][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Maaf Data Yang anda cari tidak ditemukan' in C:\xampp\htdocs\inlislite3\opac\controllers\DetailOpacController.php:746
+Stack trace:
+#0 [internal function]: opac\controllers\DetailOpacController->actionIndex()
+#1 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('', Array)
+#4 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('detail-opac', Array)
+#5 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\xampp\htdocs\inlislite3\opac\index.php(26): yii\base\Application->run()
+#7 {main}
+2021-03-27 10:01:25 [::1][2][g2m2al995pqac0ji83fs6mbme4][info][application] $_GET = [
+    'action' => 'logDownload'
+    'ID' => '1'
+]
+
+$_COOKIE = [
+    '_identity' => 'af3e2a0e951dec577795a0c5ffd91cd682a11d709a13aa959f261807f7b4af33a:2:{i:0;s:9:\"_identity\";i:1;s:17:\"[33,null,2592000]\";}'
+    '_backendInlislite' => '3f2340f575d757476e5d81ee3361a35c6b3ba91f7875361957054a5682a0a83ea:2:{i:0;s:17:\"_backendInlislite\";i:1;s:32:\"qeacreFAWob4-_sKiLV6jHRrRfYgg4k9\";}'
+    'PHPSESSID' => 'dem31ahaltv5ch2fie267dcnr0'
+    '_csrf' => '38db2003b053781c18ae0dfc2e21db54fea94d39170c1e1c4aa61e4f1d13ae1ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"CE1NpTTYGizj8SW_WimkSY6XVCcSLbCd\";}'
+    '_keanggotaanInlislite' => '295312ec0d749a47e3bc394fedab9cf168b6d1728c11156b4958ca2bd8a947aea:2:{i:0;s:21:\"_keanggotaanInlislite\";i:1;s:32:\"QqCU7KApo9pOg12-ns_bkcpMrm6kk8Mu\";}'
+    'backendSession' => 'vd39mav8qfqrref53g2smd2gl2'
+    'keanggotaanSession' => 'g2m2al995pqac0ji83fs6mbme4'
+    '_OpacInlislite' => '6699ca914f720bd300abdc7cde99a6fcddb64a71147f6b5c5324352a0ddb286ea:2:{i:0;s:14:\"_OpacInlislite\";i:1;s:32:\"ZTnnP14JPOvtiTj0Cq8XFPYx3bAD7Rb4\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+    '__returnUrl' => '/inlislite3/opac/detail-opac?id=1'
+    '__NoAnggota' => '21032700001'
+    'RiwayatPencarian' => [
+        0 => [
+            'ip' => '172.20.10.14'
+            'url' => 'http://localhost:8123/inlislite3/opac/browse?action=browse&tag=Author&findBy=PublishLocation&query=Denpasar%20:&query2=Adi%20Setiawan'
+            'action' => 'browse'
+            'keyword' => 'Tempat Terbit = Denpasar : & Pengarang = Adi Setiawan'
+            'bahan' => ''
+            'time' => '03-27-2021 10:00:59'
+        ]
+    ]
+    'catID' => null
+    'catIDmerge' => null
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8123'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"89\", \"Chromium\";v=\"89\", \";Not A Brand\";v=\"99\"'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_X_CSRF_TOKEN' => 'SHBlVDhpREwSJAs6aFhwBhg/EyBRPS58CwFdDH45HTR7EiQQDzsmeA=='
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ORIGIN' => 'http://localhost:8123'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8123/inlislite3/opac/detail-opac?id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity=af3e2a0e951dec577795a0c5ffd91cd682a11d709a13aa959f261807f7b4af33a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A17%3A%22%5B33%2Cnull%2C2592000%5D%22%3B%7D; _backendInlislite=3f2340f575d757476e5d81ee3361a35c6b3ba91f7875361957054a5682a0a83ea%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_backendInlislite%22%3Bi%3A1%3Bs%3A32%3A%22qeacreFAWob4-_sKiLV6jHRrRfYgg4k9%22%3B%7D; PHPSESSID=dem31ahaltv5ch2fie267dcnr0; _csrf=38db2003b053781c18ae0dfc2e21db54fea94d39170c1e1c4aa61e4f1d13ae1ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22CE1NpTTYGizj8SW_WimkSY6XVCcSLbCd%22%3B%7D; _keanggotaanInlislite=295312ec0d749a47e3bc394fedab9cf168b6d1728c11156b4958ca2bd8a947aea%3A2%3A%7Bi%3A0%3Bs%3A21%3A%22_keanggotaanInlislite%22%3Bi%3A1%3Bs%3A32%3A%22QqCU7KApo9pOg12-ns_bkcpMrm6kk8Mu%22%3B%7D; backendSession=vd39mav8qfqrref53g2smd2gl2; keanggotaanSession=g2m2al995pqac0ji83fs6mbme4; _OpacInlislite=6699ca914f720bd300abdc7cde99a6fcddb64a71147f6b5c5324352a0ddb286ea%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_OpacInlislite%22%3Bi%3A1%3Bs%3A32%3A%22ZTnnP14JPOvtiTj0Cq8XFPYx3bAD7Rb4%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\laragon\\bin\\php\\php-7.2.19-Win32-VC15-x64;C:\\ProgramData\\ComposerSetup\\bin;C:\\flutter\\bin;;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Users\\ipas\\AppData\\Local\\Programs\\Python\\Python38\\Scripts\\;C:\\Users\\ipas\\AppData\\Local\\Programs\\Python\\Python38\\;C:\\laragon\\bin;C:\\laragon\\bin\\apache\\httpd-2.4.35-win64-VC15\\bin;C:\\laragon\\bin\\composer;C:\\laragon\\bin\\git\\bin;C:\\laragon\\bin\\git\\cmd;C:\\laragon\\bin\\git\\mingw64\\bin;C:\\laragon\\bin\\git\\usr\\bin;C:\\laragon\\bin\\laragon\\utils;C:\\laragon\\bin\\mysql\\mysql-5.7.24-winx64\\bin;C:\\laragon\\bin\\nginx\\nginx-1.16.0;C:\\laragon\\bin\\ngrok;C:\\laragon\\bin\\nodejs\\node-v12;C:\\laragon\\bin\\notepad++;C:\\laragon\\bin\\php\\php-7.2.19-Win32-VC15-x64;C:\\laragon\\bin\\putty;C:\\laragon\\bin\\redis\\redis-x64-3.2.100;C:\\laragon\\bin\\telnet;C:\\laragon\\usr\\bin;C:\\Users\\ipas\\AppData\\Local\\Yarn\\config\\global\\node_modules\\.bin;C:\\Users\\ipas\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\ipas\\AppData\\Roaming\\npm;C:\\Users\\ipas\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\heroku\\bin;C:\\Users\\ipas\\AppData\\Local\\Android\\Sdk\\platform-tools;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19 Server at localhost Port 8123</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8123'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/inlislite3/opac/index.php'
+    'REMOTE_PORT' => '52273'
+    'REDIRECT_QUERY_STRING' => 'action=logDownload&ID=1'
+    'REDIRECT_URL' => 'http://localhost:8123/inlislite3/opac/detail-opac?action=logDownload&ID=1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'action=logDownload&ID=1'
+    'REQUEST_URI' => '/inlislite3/opac/detail-opac?action=logDownload&ID=1'
+    'SCRIPT_NAME' => '/inlislite3/opac/index.php'
+    'PHP_SELF' => '/inlislite3/opac/index.php'
+    'REQUEST_TIME_FLOAT' => 1616814084.992
+    'REQUEST_TIME' => 1616814084
+]
+2021-03-27 14:07:12 [::1][-][4n68aek2cun5a9h71c79m6g802][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Tidak dapat mem-verifikasi pengiriman data Anda.' in C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Controller.php(152): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('login', Array)
+#2 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/login', Array)
+#3 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 C:\xampp\htdocs\inlislite3\opac\index.php(26): yii\base\Application->run()
+#5 {main}
+2021-03-27 14:07:12 [::1][-][4n68aek2cun5a9h71c79m6g802][info][application] $_COOKIE = [
+    '_identity' => 'af3e2a0e951dec577795a0c5ffd91cd682a11d709a13aa959f261807f7b4af33a:2:{i:0;s:9:\"_identity\";i:1;s:17:\"[33,null,2592000]\";}'
+    '_backendInlislite' => '3f2340f575d757476e5d81ee3361a35c6b3ba91f7875361957054a5682a0a83ea:2:{i:0;s:17:\"_backendInlislite\";i:1;s:32:\"qeacreFAWob4-_sKiLV6jHRrRfYgg4k9\";}'
+    'PHPSESSID' => 'dem31ahaltv5ch2fie267dcnr0'
+    '_csrf' => '38db2003b053781c18ae0dfc2e21db54fea94d39170c1e1c4aa61e4f1d13ae1ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"CE1NpTTYGizj8SW_WimkSY6XVCcSLbCd\";}'
+    '_keanggotaanInlislite' => '295312ec0d749a47e3bc394fedab9cf168b6d1728c11156b4958ca2bd8a947aea:2:{i:0;s:21:\"_keanggotaanInlislite\";i:1;s:32:\"QqCU7KApo9pOg12-ns_bkcpMrm6kk8Mu\";}'
+    'backendSession' => 'vd39mav8qfqrref53g2smd2gl2'
+    '_OpacInlislite' => '6699ca914f720bd300abdc7cde99a6fcddb64a71147f6b5c5324352a0ddb286ea:2:{i:0;s:14:\"_OpacInlislite\";i:1;s:32:\"ZTnnP14JPOvtiTj0Cq8XFPYx3bAD7Rb4\";}'
+    'keanggotaanSession' => '4n68aek2cun5a9h71c79m6g802'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/inlislite3/mobile/'
+    'RiwayatPencarian' => [
+        0 => [
+            'ip' => '172.20.10.14'
+            'url' => 'http://localhost:8123/inlislite3/mobile/pencarian-sederhana?action=pencarianSederhana&katakunci=sayur&ruas=Judul&bahan=Semua+Jenis+Bahan'
+            'action' => 'pencarianSederhana'
+            'keyword' => 'Judul = sayur'
+            'bahan' => 'Semua Jenis Bahan'
+            'time' => '03-27-2021 12:39:59'
+        ]
+        1 => [
+            'ip' => '172.20.10.14'
+            'url' => 'http://localhost:8123/inlislite3/mobile/pencarian-sederhana?action=pencarianSederhana&katakunci=sayur&ruas=Judul&bahan=Semua+Jenis+Bahan'
+            'action' => 'pencarianSederhana'
+            'keyword' => 'Judul = sayur'
+            'bahan' => 'Semua Jenis Bahan'
+            'time' => '03-27-2021 12:46:17'
+        ]
+        2 => [
+            'ip' => '172.20.10.14'
+            'url' => 'http://localhost:8123/inlislite3/mobile/pencarian-sederhana?action=pencarianSederhana&katakunci=sayur&ruas=Judul&bahan=Semua+Jenis+Bahan'
+            'action' => 'pencarianSederhana'
+            'keyword' => 'Judul = sayur'
+            'bahan' => 'Semua Jenis Bahan'
+            'time' => '03-27-2021 13:14:46'
+        ]
+        3 => [
+            'ip' => '172.20.10.14'
+            'url' => 'http://localhost:8123/inlislite3/mobile/pencarian-sederhana?action=pencarianSederhana&katakunci=sayur&ruas=Judul&bahan=Semua+Jenis+Bahan'
+            'action' => 'pencarianSederhana'
+            'keyword' => 'Judul = sayur'
+            'bahan' => 'Semua Jenis Bahan'
+            'time' => '03-27-2021 13:15:07'
+        ]
+        4 => [
+            'ip' => '172.20.10.14'
+            'url' => 'http://localhost:8123/inlislite3/mobile/pencarian-sederhana?action=pencarianSederhana&katakunci=sayur&ruas=Judul&bahan=Semua+Jenis+Bahan'
+            'action' => 'pencarianSederhana'
+            'keyword' => 'Judul = sayur'
+            'bahan' => 'Semua Jenis Bahan'
+            'time' => '03-27-2021 13:15:41'
+        ]
+        5 => [
+            'ip' => '172.20.10.14'
+            'url' => 'http://localhost:8123/inlislite3/mobile/pencarian-sederhana?action=pencarianSederhana&katakunci=sayur&ruas=Judul&bahan=Semua+Jenis+Bahan'
+            'action' => 'pencarianSederhana'
+            'keyword' => 'Judul = sayur'
+            'bahan' => 'Semua Jenis Bahan'
+            'time' => '03-27-2021 13:18:53'
+        ]
+        6 => [
+            'ip' => '172.20.10.14'
+            'url' => 'http://localhost:8123/inlislite3/mobile/pencarian-sederhana?action=pencarianSederhana&katakunci=sayur&ruas=Judul&bahan=Semua+Jenis+Bahan'
+            'action' => 'pencarianSederhana'
+            'keyword' => 'Judul = sayur'
+            'bahan' => 'Semua Jenis Bahan'
+            'time' => '03-27-2021 13:25:50'
+        ]
+        7 => [
+            'ip' => '172.20.10.14'
+            'url' => 'http://localhost:8123/inlislite3/mobile/pencarian-sederhana?action=pencarianSederhana&katakunci=sayur&ruas=Judul&bahan=Semua+Jenis+Bahan'
+            'action' => 'pencarianSederhana'
+            'keyword' => 'Judul = sayur'
+            'bahan' => 'Semua Jenis Bahan'
+            'time' => '03-27-2021 13:26:33'
+        ]
+        8 => [
+            'ip' => '172.20.10.14'
+            'url' => 'http://localhost:8123/inlislite3/mobile/pencarian-sederhana?action=pencarianSederhana&katakunci=sayur&ruas=Judul&bahan=Semua+Jenis+Bahan'
+            'action' => 'pencarianSederhana'
+            'keyword' => 'Judul = sayur'
+            'bahan' => 'Semua Jenis Bahan'
+            'time' => '03-27-2021 13:27:14'
+        ]
+        9 => [
+            'ip' => '172.20.10.14'
+            'url' => 'http://localhost:8123/inlislite3/mobile/pencarian-sederhana?action=pencarianSederhana&katakunci=sayur&ruas=Judul&bahan=Semua+Jenis+Bahan'
+            'action' => 'pencarianSederhana'
+            'keyword' => 'Judul = sayur'
+            'bahan' => 'Semua Jenis Bahan'
+            'time' => '03-27-2021 13:27:43'
+        ]
+        10 => [
+            'ip' => '172.20.10.14'
+            'url' => 'http://localhost:8123/inlislite3/mobile/pencarian-sederhana?action=pencarianSederhana&katakunci=sayur&ruas=Judul&bahan=Semua+Jenis+Bahan'
+            'action' => 'pencarianSederhana'
+            'keyword' => 'Judul = sayur'
+            'bahan' => 'Semua Jenis Bahan'
+            'time' => '03-27-2021 13:27:55'
+        ]
+        11 => [
+            'ip' => '172.20.10.14'
+            'url' => 'http://localhost:8123/inlislite3/mobile/pencarian-sederhana?action=pencarianSederhana&katakunci=sayur&ruas=Judul&bahan=Semua+Jenis+Bahan'
+            'action' => 'pencarianSederhana'
+            'keyword' => 'Judul = sayur'
+            'bahan' => 'Semua Jenis Bahan'
+            'time' => '03-27-2021 13:28:57'
+        ]
+        12 => [
+            'ip' => '172.20.10.14'
+            'url' => 'http://localhost:8123/inlislite3/mobile/pencarian-sederhana?action=pencarianSederhana&katakunci=sayur&ruas=Judul&bahan=Semua+Jenis+Bahan'
+            'action' => 'pencarianSederhana'
+            'keyword' => 'Judul = sayur'
+            'bahan' => 'Semua Jenis Bahan'
+            'time' => '03-27-2021 13:30:44'
+        ]
+        13 => [
+            'ip' => '172.20.10.14'
+            'url' => 'http://localhost:8123/inlislite3/mobile/pencarian-sederhana?action=pencarianSederhana&katakunci=sayur&ruas=Judul&bahan=Semua+Jenis+Bahan'
+            'action' => 'pencarianSederhana'
+            'keyword' => 'Judul = sayur'
+            'bahan' => 'Semua Jenis Bahan'
+            'time' => '03-27-2021 13:47:14'
+        ]
+        14 => [
+            'ip' => '172.20.10.14'
+            'url' => 'http://localhost:8123/inlislite3/mobile/pencarian-sederhana?action=pencarianSederhana&katakunci=sayur&ruas=Judul&bahan=Semua+Jenis+Bahan'
+            'action' => 'pencarianSederhana'
+            'keyword' => 'Judul = sayur'
+            'bahan' => 'Semua Jenis Bahan'
+            'time' => '03-27-2021 13:47:21'
+        ]
+    ]
+    'dataFacedAuthor' => [
+        0 => [
+            'Author' => 'Adi Setiawan'
+            'jml' => '3'
+        ]
+    ]
+    'dataFacedPublisher' => [
+        0 => [
+            'Publisher' => 'Ganeca,'
+            'jml' => '3'
+        ]
+    ]
+    'dataFacedPublishLocation' => [
+        0 => [
+            'PublishLocation' => 'Denpasar :'
+            'jml' => '3'
+        ]
+    ]
+    'dataFacedPublishYear' => [
+        0 => [
+            'PublishYear' => '2021'
+            'jml' => '3'
+        ]
+    ]
+    'dataFacedSubject' => []
+    'dataFacedBahasa' => [
+        0 => [
+            'bahasa' => '###'
+            'jml' => '3'
+        ]
+    ]
+    'countSearch' => '3'
+    'catID' => null
+    'catIDmerge' => null
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8123'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"89\", \"Chromium\";v=\"89\", \";Not A Brand\";v=\"99\"'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36'
+    'HTTP_ORIGIN' => 'http://localhost:8123'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8123/inlislite3/mobile/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity=af3e2a0e951dec577795a0c5ffd91cd682a11d709a13aa959f261807f7b4af33a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A17%3A%22%5B33%2Cnull%2C2592000%5D%22%3B%7D; _backendInlislite=3f2340f575d757476e5d81ee3361a35c6b3ba91f7875361957054a5682a0a83ea%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_backendInlislite%22%3Bi%3A1%3Bs%3A32%3A%22qeacreFAWob4-_sKiLV6jHRrRfYgg4k9%22%3B%7D; PHPSESSID=dem31ahaltv5ch2fie267dcnr0; _csrf=38db2003b053781c18ae0dfc2e21db54fea94d39170c1e1c4aa61e4f1d13ae1ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22CE1NpTTYGizj8SW_WimkSY6XVCcSLbCd%22%3B%7D; _keanggotaanInlislite=295312ec0d749a47e3bc394fedab9cf168b6d1728c11156b4958ca2bd8a947aea%3A2%3A%7Bi%3A0%3Bs%3A21%3A%22_keanggotaanInlislite%22%3Bi%3A1%3Bs%3A32%3A%22QqCU7KApo9pOg12-ns_bkcpMrm6kk8Mu%22%3B%7D; backendSession=vd39mav8qfqrref53g2smd2gl2; _OpacInlislite=6699ca914f720bd300abdc7cde99a6fcddb64a71147f6b5c5324352a0ddb286ea%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_OpacInlislite%22%3Bi%3A1%3Bs%3A32%3A%22ZTnnP14JPOvtiTj0Cq8XFPYx3bAD7Rb4%22%3B%7D; keanggotaanSession=4n68aek2cun5a9h71c79m6g802'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\laragon\\bin\\php\\php-7.2.19-Win32-VC15-x64;C:\\ProgramData\\ComposerSetup\\bin;C:\\flutter\\bin;;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Users\\ipas\\AppData\\Local\\Programs\\Python\\Python38\\Scripts\\;C:\\Users\\ipas\\AppData\\Local\\Programs\\Python\\Python38\\;C:\\laragon\\bin;C:\\laragon\\bin\\apache\\httpd-2.4.35-win64-VC15\\bin;C:\\laragon\\bin\\composer;C:\\laragon\\bin\\git\\bin;C:\\laragon\\bin\\git\\cmd;C:\\laragon\\bin\\git\\mingw64\\bin;C:\\laragon\\bin\\git\\usr\\bin;C:\\laragon\\bin\\laragon\\utils;C:\\laragon\\bin\\mysql\\mysql-5.7.24-winx64\\bin;C:\\laragon\\bin\\nginx\\nginx-1.16.0;C:\\laragon\\bin\\ngrok;C:\\laragon\\bin\\nodejs\\node-v12;C:\\laragon\\bin\\notepad++;C:\\laragon\\bin\\php\\php-7.2.19-Win32-VC15-x64;C:\\laragon\\bin\\putty;C:\\laragon\\bin\\redis\\redis-x64-3.2.100;C:\\laragon\\bin\\telnet;C:\\laragon\\usr\\bin;C:\\Users\\ipas\\AppData\\Local\\Yarn\\config\\global\\node_modules\\.bin;C:\\Users\\ipas\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\ipas\\AppData\\Roaming\\npm;C:\\Users\\ipas\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\heroku\\bin;C:\\Users\\ipas\\AppData\\Local\\Android\\Sdk\\platform-tools;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19 Server at localhost Port 8123</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8123'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/inlislite3/opac/index.php'
+    'REMOTE_PORT' => '56572'
+    'REDIRECT_URL' => 'http://localhost:8123/inlislite3/opac/site/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/inlislite3/opac/site/login'
+    'SCRIPT_NAME' => '/inlislite3/opac/index.php'
+    'PHP_SELF' => '/inlislite3/opac/index.php'
+    'REQUEST_TIME_FLOAT' => 1616828832.052
+    'REQUEST_TIME' => 1616828832
+]
+2021-03-29 09:36:35 [::1][2][ia3pvrtss2tg5i1t2k31gj3qn0][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Maaf Data Yang anda cari tidak ditemukan' in C:\xampp\htdocs\inlislite3\opac\controllers\DetailOpacController.php:746
+Stack trace:
+#0 [internal function]: opac\controllers\DetailOpacController->actionIndex()
+#1 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('', Array)
+#4 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('detail-opac', Array)
+#5 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\xampp\htdocs\inlislite3\opac\index.php(26): yii\base\Application->run()
+#7 {main}
+2021-03-29 09:36:33 [::1][2][ia3pvrtss2tg5i1t2k31gj3qn0][info][application] $_GET = [
+    'action' => 'logDownload'
+    'ID' => '3'
+]
+
+$_COOKIE = [
+    '_identity' => 'af3e2a0e951dec577795a0c5ffd91cd682a11d709a13aa959f261807f7b4af33a:2:{i:0;s:9:\"_identity\";i:1;s:17:\"[33,null,2592000]\";}'
+    '_backendInlislite' => '8fe846c6c0cd49bcbb060ec1bab755022c18d566625eb1de421b3bf4fe551b07a:2:{i:0;s:17:\"_backendInlislite\";i:1;s:32:\"ttPUDPsXCpo-a7bVDFWS2IrZPo9cvCnS\";}'
+    'backendSession' => 's7t0q9h49ref0u8vtofeotuh34'
+    '_OpacInlislite' => '05b5b41d16e86bdf3d11d4873e49ab0d980c65a3d17461c4ed9f9b0dc584365aa:2:{i:0;s:14:\"_OpacInlislite\";i:1;s:32:\"BtkyvuKgq8Fwb_JNK2NJXF1QpGyYp8zZ\";}'
+    'PHPSESSID' => 'el1onombu4njvcititobmk3ii4'
+    '_csrf' => 'af53f28b9899c040fcfd3e7ff2a8ef4386af6172d1a488299267af7b2db54427a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"QaBnQLa39yf_WzigQn-3k_Uh04kvFkjJ\";}'
+    'keanggotaanSession' => 'ia3pvrtss2tg5i1t2k31gj3qn0'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/inlislite3/opac/detail-opac?id=4'
+    '__id' => 2
+    '__NoAnggota' => '21032700001'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8123'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"89\", \"Chromium\";v=\"89\", \";Not A Brand\";v=\"99\"'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_X_CSRF_TOKEN' => 'a0RNV19fdlkpMCYuKSo9Php8CyA9ADwXIHYDHQcZRwgbAzQOL2cMAw=='
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ORIGIN' => 'http://localhost:8123'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8123/inlislite3/opac/detail-opac?id=4'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity=af3e2a0e951dec577795a0c5ffd91cd682a11d709a13aa959f261807f7b4af33a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A17%3A%22%5B33%2Cnull%2C2592000%5D%22%3B%7D; _backendInlislite=8fe846c6c0cd49bcbb060ec1bab755022c18d566625eb1de421b3bf4fe551b07a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_backendInlislite%22%3Bi%3A1%3Bs%3A32%3A%22ttPUDPsXCpo-a7bVDFWS2IrZPo9cvCnS%22%3B%7D; backendSession=s7t0q9h49ref0u8vtofeotuh34; _OpacInlislite=05b5b41d16e86bdf3d11d4873e49ab0d980c65a3d17461c4ed9f9b0dc584365aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_OpacInlislite%22%3Bi%3A1%3Bs%3A32%3A%22BtkyvuKgq8Fwb_JNK2NJXF1QpGyYp8zZ%22%3B%7D; PHPSESSID=el1onombu4njvcititobmk3ii4; _csrf=af53f28b9899c040fcfd3e7ff2a8ef4386af6172d1a488299267af7b2db54427a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22QaBnQLa39yf_WzigQn-3k_Uh04kvFkjJ%22%3B%7D; keanggotaanSession=ia3pvrtss2tg5i1t2k31gj3qn0'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\laragon\\bin\\php\\php-7.2.19-Win32-VC15-x64;C:\\ProgramData\\ComposerSetup\\bin;C:\\flutter\\bin;;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Users\\ipas\\AppData\\Local\\Programs\\Python\\Python38\\Scripts\\;C:\\Users\\ipas\\AppData\\Local\\Programs\\Python\\Python38\\;C:\\laragon\\bin;C:\\laragon\\bin\\apache\\httpd-2.4.35-win64-VC15\\bin;C:\\laragon\\bin\\composer;C:\\laragon\\bin\\git\\bin;C:\\laragon\\bin\\git\\cmd;C:\\laragon\\bin\\git\\mingw64\\bin;C:\\laragon\\bin\\git\\usr\\bin;C:\\laragon\\bin\\laragon\\utils;C:\\laragon\\bin\\mysql\\mysql-5.7.24-winx64\\bin;C:\\laragon\\bin\\nginx\\nginx-1.16.0;C:\\laragon\\bin\\ngrok;C:\\laragon\\bin\\nodejs\\node-v12;C:\\laragon\\bin\\notepad++;C:\\laragon\\bin\\php\\php-7.2.19-Win32-VC15-x64;C:\\laragon\\bin\\putty;C:\\laragon\\bin\\redis\\redis-x64-3.2.100;C:\\laragon\\bin\\telnet;C:\\laragon\\usr\\bin;C:\\Users\\ipas\\AppData\\Local\\Yarn\\config\\global\\node_modules\\.bin;C:\\Users\\ipas\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\ipas\\AppData\\Roaming\\npm;C:\\Users\\ipas\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\heroku\\bin;C:\\Users\\ipas\\AppData\\Local\\Android\\Sdk\\platform-tools;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19 Server at localhost Port 8123</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8123'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/inlislite3/opac/index.php'
+    'REMOTE_PORT' => '56725'
+    'REDIRECT_QUERY_STRING' => 'action=logDownload&ID=3'
+    'REDIRECT_URL' => 'http://localhost:8123/inlislite3/opac/detail-opac?action=logDownload&ID=3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'action=logDownload&ID=3'
+    'REQUEST_URI' => '/inlislite3/opac/detail-opac?action=logDownload&ID=3'
+    'SCRIPT_NAME' => '/inlislite3/opac/index.php'
+    'PHP_SELF' => '/inlislite3/opac/index.php'
+    'REQUEST_TIME_FLOAT' => 1616985393.572
+    'REQUEST_TIME' => 1616985393
+]
+2021-03-29 14:34:52 [::1][-][bml1bjuemkhnf5cemijvn5niq6][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'opac\controllers\ProfileController' in file: C:\xampp\htdocs\inlislite3/opac/controllers/ProfileController.php. Namespace missing?' in C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('opac\\controller...')
+#1 [internal function]: spl_autoload_call('opac\\controller...')
+#2 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Module.php(562): class_exists('opac\\controller...')
+#3 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Module.php(520): yii\base\Module->createControllerByID('profile')
+#4 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Module.php(448): yii\base\Module->createController('profile')
+#5 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('profile', Array)
+#6 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\xampp\htdocs\inlislite3\opac\index.php(26): yii\base\Application->run()
+#8 {main}
+2021-03-29 14:34:52 [::1][-][bml1bjuemkhnf5cemijvn5niq6][info][application] $_COOKIE = [
+    '_identity' => 'af3e2a0e951dec577795a0c5ffd91cd682a11d709a13aa959f261807f7b4af33a:2:{i:0;s:9:\"_identity\";i:1;s:17:\"[33,null,2592000]\";}'
+    '_backendInlislite' => '8fe846c6c0cd49bcbb060ec1bab755022c18d566625eb1de421b3bf4fe551b07a:2:{i:0;s:17:\"_backendInlislite\";i:1;s:32:\"ttPUDPsXCpo-a7bVDFWS2IrZPo9cvCnS\";}'
+    'backendSession' => 's7t0q9h49ref0u8vtofeotuh34'
+    '_OpacInlislite' => '05b5b41d16e86bdf3d11d4873e49ab0d980c65a3d17461c4ed9f9b0dc584365aa:2:{i:0;s:14:\"_OpacInlislite\";i:1;s:32:\"BtkyvuKgq8Fwb_JNK2NJXF1QpGyYp8zZ\";}'
+    'PHPSESSID' => 'el1onombu4njvcititobmk3ii4'
+    '_csrf' => 'af53f28b9899c040fcfd3e7ff2a8ef4386af6172d1a488299267af7b2db54427a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"QaBnQLa39yf_WzigQn-3k_Uh04kvFkjJ\";}'
+    '_keanggotaanInlislite' => '98f101362526e014c2d61160be5f7982d789544a1776e65248fe0b762826481ca:2:{i:0;s:21:\"_keanggotaanInlislite\";i:1;s:32:\"O_XfrUv6iTK5CMq9dqh65yg7tJo8u3qd\";}'
+    'peminjamanmandiri' => '59d9efe4f788267e501050209f8cccfcf18b5472e8ce252ae5b6bbab20740bfca:2:{i:0;s:17:\"peminjamanmandiri\";i:1;s:32:\"Blkit6sR5mTCL1l-cHS0-GQQiqua1KgH\";}'
+    'keanggotaanSession' => 'bml1bjuemkhnf5cemijvn5niq6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/inlislite3/opac/detail-opac?id=1'
+    'RiwayatPencarian' => [
+        0 => [
+            'ip' => '10.9.6.68'
+            'url' => 'http://localhost:8123/inlislite3/opac/pencarian-sederhana?action=pencarianSederhana&katakunci=sayur&ruas=Judul&bahan=Semua+Jenis+Bahan'
+            'action' => 'pencarianSederhana'
+            'keyword' => 'Judul = sayur'
+            'bahan' => 'Semua Jenis Bahan'
+            'time' => '03-29-2021 14:00:15'
+        ]
+    ]
+    'dataFacedAuthor' => [
+        0 => [
+            'Author' => 'Adi Setiawan'
+            'jml' => '4'
+        ]
+    ]
+    'dataFacedPublisher' => [
+        0 => [
+            'Publisher' => 'Ganeca,'
+            'jml' => '4'
+        ]
+    ]
+    'dataFacedPublishLocation' => [
+        0 => [
+            'PublishLocation' => 'Denpasar :'
+            'jml' => '4'
+        ]
+    ]
+    'dataFacedPublishYear' => [
+        0 => [
+            'PublishYear' => '2021'
+            'jml' => '4'
+        ]
+    ]
+    'dataFacedSubject' => []
+    'dataFacedBahasa' => [
+        0 => [
+            'bahasa' => '###'
+            'jml' => '4'
+        ]
+    ]
+    'countSearch' => '4'
+    'catID' => null
+    'catIDmerge' => null
+    '__id' => 2
+    '__NoAnggota' => '21032700001'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8123'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"89\", \"Chromium\";v=\"89\", \";Not A Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity=af3e2a0e951dec577795a0c5ffd91cd682a11d709a13aa959f261807f7b4af33a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A17%3A%22%5B33%2Cnull%2C2592000%5D%22%3B%7D; _backendInlislite=8fe846c6c0cd49bcbb060ec1bab755022c18d566625eb1de421b3bf4fe551b07a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_backendInlislite%22%3Bi%3A1%3Bs%3A32%3A%22ttPUDPsXCpo-a7bVDFWS2IrZPo9cvCnS%22%3B%7D; backendSession=s7t0q9h49ref0u8vtofeotuh34; _OpacInlislite=05b5b41d16e86bdf3d11d4873e49ab0d980c65a3d17461c4ed9f9b0dc584365aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_OpacInlislite%22%3Bi%3A1%3Bs%3A32%3A%22BtkyvuKgq8Fwb_JNK2NJXF1QpGyYp8zZ%22%3B%7D; PHPSESSID=el1onombu4njvcititobmk3ii4; _csrf=af53f28b9899c040fcfd3e7ff2a8ef4386af6172d1a488299267af7b2db54427a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22QaBnQLa39yf_WzigQn-3k_Uh04kvFkjJ%22%3B%7D; _keanggotaanInlislite=98f101362526e014c2d61160be5f7982d789544a1776e65248fe0b762826481ca%3A2%3A%7Bi%3A0%3Bs%3A21%3A%22_keanggotaanInlislite%22%3Bi%3A1%3Bs%3A32%3A%22O_XfrUv6iTK5CMq9dqh65yg7tJo8u3qd%22%3B%7D; peminjamanmandiri=59d9efe4f788267e501050209f8cccfcf18b5472e8ce252ae5b6bbab20740bfca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22peminjamanmandiri%22%3Bi%3A1%3Bs%3A32%3A%22Blkit6sR5mTCL1l-cHS0-GQQiqua1KgH%22%3B%7D; keanggotaanSession=bml1bjuemkhnf5cemijvn5niq6'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\laragon\\bin\\php\\php-7.2.19-Win32-VC15-x64;C:\\ProgramData\\ComposerSetup\\bin;C:\\flutter\\bin;;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Users\\ipas\\AppData\\Local\\Programs\\Python\\Python38\\Scripts\\;C:\\Users\\ipas\\AppData\\Local\\Programs\\Python\\Python38\\;C:\\laragon\\bin;C:\\laragon\\bin\\apache\\httpd-2.4.35-win64-VC15\\bin;C:\\laragon\\bin\\composer;C:\\laragon\\bin\\git\\bin;C:\\laragon\\bin\\git\\cmd;C:\\laragon\\bin\\git\\mingw64\\bin;C:\\laragon\\bin\\git\\usr\\bin;C:\\laragon\\bin\\laragon\\utils;C:\\laragon\\bin\\mysql\\mysql-5.7.24-winx64\\bin;C:\\laragon\\bin\\nginx\\nginx-1.16.0;C:\\laragon\\bin\\ngrok;C:\\laragon\\bin\\nodejs\\node-v12;C:\\laragon\\bin\\notepad++;C:\\laragon\\bin\\php\\php-7.2.19-Win32-VC15-x64;C:\\laragon\\bin\\putty;C:\\laragon\\bin\\redis\\redis-x64-3.2.100;C:\\laragon\\bin\\telnet;C:\\laragon\\usr\\bin;C:\\Users\\ipas\\AppData\\Local\\Yarn\\config\\global\\node_modules\\.bin;C:\\Users\\ipas\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\ipas\\AppData\\Roaming\\npm;C:\\Users\\ipas\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\heroku\\bin;C:\\Users\\ipas\\AppData\\Local\\Android\\Sdk\\platform-tools;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19 Server at localhost Port 8123</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8123'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/inlislite3/opac/index.php'
+    'REMOTE_PORT' => '55032'
+    'REDIRECT_URL' => 'http://localhost:8123/inlislite3/opac/profile'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/inlislite3/opac/profile'
+    'SCRIPT_NAME' => '/inlislite3/opac/index.php'
+    'PHP_SELF' => '/inlislite3/opac/index.php'
+    'REQUEST_TIME_FLOAT' => 1617003292.49
+    'REQUEST_TIME' => 1617003292
+]
+2021-03-29 14:35:53 [::1][2][bml1bjuemkhnf5cemijvn5niq6][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Parameter yang diperlukan tidak ada: no_anggota' in C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\web\Controller.php:93
+Stack trace:
+#0 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\InlineAction.php(49): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#2 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('', Array)
+#3 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('profile', Array)
+#4 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 C:\xampp\htdocs\inlislite3\opac\index.php(26): yii\base\Application->run()
+#6 {main}
+2021-03-29 14:35:53 [::1][2][bml1bjuemkhnf5cemijvn5niq6][info][application] $_COOKIE = [
+    '_identity' => 'af3e2a0e951dec577795a0c5ffd91cd682a11d709a13aa959f261807f7b4af33a:2:{i:0;s:9:\"_identity\";i:1;s:17:\"[33,null,2592000]\";}'
+    '_backendInlislite' => '8fe846c6c0cd49bcbb060ec1bab755022c18d566625eb1de421b3bf4fe551b07a:2:{i:0;s:17:\"_backendInlislite\";i:1;s:32:\"ttPUDPsXCpo-a7bVDFWS2IrZPo9cvCnS\";}'
+    'backendSession' => 's7t0q9h49ref0u8vtofeotuh34'
+    '_OpacInlislite' => '05b5b41d16e86bdf3d11d4873e49ab0d980c65a3d17461c4ed9f9b0dc584365aa:2:{i:0;s:14:\"_OpacInlislite\";i:1;s:32:\"BtkyvuKgq8Fwb_JNK2NJXF1QpGyYp8zZ\";}'
+    'PHPSESSID' => 'el1onombu4njvcititobmk3ii4'
+    '_csrf' => 'af53f28b9899c040fcfd3e7ff2a8ef4386af6172d1a488299267af7b2db54427a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"QaBnQLa39yf_WzigQn-3k_Uh04kvFkjJ\";}'
+    '_keanggotaanInlislite' => '98f101362526e014c2d61160be5f7982d789544a1776e65248fe0b762826481ca:2:{i:0;s:21:\"_keanggotaanInlislite\";i:1;s:32:\"O_XfrUv6iTK5CMq9dqh65yg7tJo8u3qd\";}'
+    'peminjamanmandiri' => '59d9efe4f788267e501050209f8cccfcf18b5472e8ce252ae5b6bbab20740bfca:2:{i:0;s:17:\"peminjamanmandiri\";i:1;s:32:\"Blkit6sR5mTCL1l-cHS0-GQQiqua1KgH\";}'
+    'keanggotaanSession' => 'bml1bjuemkhnf5cemijvn5niq6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/inlislite3/opac/profile'
+    'RiwayatPencarian' => [
+        0 => [
+            'ip' => '10.9.6.68'
+            'url' => 'http://localhost:8123/inlislite3/opac/pencarian-sederhana?action=pencarianSederhana&katakunci=sayur&ruas=Judul&bahan=Semua+Jenis+Bahan'
+            'action' => 'pencarianSederhana'
+            'keyword' => 'Judul = sayur'
+            'bahan' => 'Semua Jenis Bahan'
+            'time' => '03-29-2021 14:00:15'
+        ]
+    ]
+    'dataFacedAuthor' => [
+        0 => [
+            'Author' => 'Adi Setiawan'
+            'jml' => '4'
+        ]
+    ]
+    'dataFacedPublisher' => [
+        0 => [
+            'Publisher' => 'Ganeca,'
+            'jml' => '4'
+        ]
+    ]
+    'dataFacedPublishLocation' => [
+        0 => [
+            'PublishLocation' => 'Denpasar :'
+            'jml' => '4'
+        ]
+    ]
+    'dataFacedPublishYear' => [
+        0 => [
+            'PublishYear' => '2021'
+            'jml' => '4'
+        ]
+    ]
+    'dataFacedSubject' => []
+    'dataFacedBahasa' => [
+        0 => [
+            'bahasa' => '###'
+            'jml' => '4'
+        ]
+    ]
+    'countSearch' => '4'
+    'catID' => null
+    'catIDmerge' => null
+    '__id' => 2
+    '__NoAnggota' => '21032700001'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8123'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"89\", \"Chromium\";v=\"89\", \";Not A Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity=af3e2a0e951dec577795a0c5ffd91cd682a11d709a13aa959f261807f7b4af33a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A17%3A%22%5B33%2Cnull%2C2592000%5D%22%3B%7D; _backendInlislite=8fe846c6c0cd49bcbb060ec1bab755022c18d566625eb1de421b3bf4fe551b07a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_backendInlislite%22%3Bi%3A1%3Bs%3A32%3A%22ttPUDPsXCpo-a7bVDFWS2IrZPo9cvCnS%22%3B%7D; backendSession=s7t0q9h49ref0u8vtofeotuh34; _OpacInlislite=05b5b41d16e86bdf3d11d4873e49ab0d980c65a3d17461c4ed9f9b0dc584365aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_OpacInlislite%22%3Bi%3A1%3Bs%3A32%3A%22BtkyvuKgq8Fwb_JNK2NJXF1QpGyYp8zZ%22%3B%7D; PHPSESSID=el1onombu4njvcititobmk3ii4; _csrf=af53f28b9899c040fcfd3e7ff2a8ef4386af6172d1a488299267af7b2db54427a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22QaBnQLa39yf_WzigQn-3k_Uh04kvFkjJ%22%3B%7D; _keanggotaanInlislite=98f101362526e014c2d61160be5f7982d789544a1776e65248fe0b762826481ca%3A2%3A%7Bi%3A0%3Bs%3A21%3A%22_keanggotaanInlislite%22%3Bi%3A1%3Bs%3A32%3A%22O_XfrUv6iTK5CMq9dqh65yg7tJo8u3qd%22%3B%7D; peminjamanmandiri=59d9efe4f788267e501050209f8cccfcf18b5472e8ce252ae5b6bbab20740bfca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22peminjamanmandiri%22%3Bi%3A1%3Bs%3A32%3A%22Blkit6sR5mTCL1l-cHS0-GQQiqua1KgH%22%3B%7D; keanggotaanSession=bml1bjuemkhnf5cemijvn5niq6'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\laragon\\bin\\php\\php-7.2.19-Win32-VC15-x64;C:\\ProgramData\\ComposerSetup\\bin;C:\\flutter\\bin;;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Users\\ipas\\AppData\\Local\\Programs\\Python\\Python38\\Scripts\\;C:\\Users\\ipas\\AppData\\Local\\Programs\\Python\\Python38\\;C:\\laragon\\bin;C:\\laragon\\bin\\apache\\httpd-2.4.35-win64-VC15\\bin;C:\\laragon\\bin\\composer;C:\\laragon\\bin\\git\\bin;C:\\laragon\\bin\\git\\cmd;C:\\laragon\\bin\\git\\mingw64\\bin;C:\\laragon\\bin\\git\\usr\\bin;C:\\laragon\\bin\\laragon\\utils;C:\\laragon\\bin\\mysql\\mysql-5.7.24-winx64\\bin;C:\\laragon\\bin\\nginx\\nginx-1.16.0;C:\\laragon\\bin\\ngrok;C:\\laragon\\bin\\nodejs\\node-v12;C:\\laragon\\bin\\notepad++;C:\\laragon\\bin\\php\\php-7.2.19-Win32-VC15-x64;C:\\laragon\\bin\\putty;C:\\laragon\\bin\\redis\\redis-x64-3.2.100;C:\\laragon\\bin\\telnet;C:\\laragon\\usr\\bin;C:\\Users\\ipas\\AppData\\Local\\Yarn\\config\\global\\node_modules\\.bin;C:\\Users\\ipas\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\ipas\\AppData\\Roaming\\npm;C:\\Users\\ipas\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\heroku\\bin;C:\\Users\\ipas\\AppData\\Local\\Android\\Sdk\\platform-tools;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19 Server at localhost Port 8123</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8123'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/inlislite3/opac/index.php'
+    'REMOTE_PORT' => '55048'
+    'REDIRECT_URL' => 'http://localhost:8123/inlislite3/opac/profile'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/inlislite3/opac/profile'
+    'SCRIPT_NAME' => '/inlislite3/opac/index.php'
+    'PHP_SELF' => '/inlislite3/opac/index.php'
+    'REQUEST_TIME_FLOAT' => 1617003353.571
+    'REQUEST_TIME' => 1617003353
+]
+2021-03-29 14:39:13 [::1][-][spborfsafpl91bs9df6kmabqu1][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: profile/opac' in C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('opac', Array)
+#1 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('profile/opac', Array)
+#2 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\xampp\htdocs\inlislite3\opac\index.php(26): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Halaman tidak ditemukan.' in C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\inlislite3\opac\index.php(26): yii\base\Application->run()
+#2 {main}
+2021-03-29 14:39:13 [::1][-][spborfsafpl91bs9df6kmabqu1][info][application] $_COOKIE = [
+    '_identity' => 'af3e2a0e951dec577795a0c5ffd91cd682a11d709a13aa959f261807f7b4af33a:2:{i:0;s:9:\"_identity\";i:1;s:17:\"[33,null,2592000]\";}'
+    '_backendInlislite' => '8fe846c6c0cd49bcbb060ec1bab755022c18d566625eb1de421b3bf4fe551b07a:2:{i:0;s:17:\"_backendInlislite\";i:1;s:32:\"ttPUDPsXCpo-a7bVDFWS2IrZPo9cvCnS\";}'
+    'backendSession' => 's7t0q9h49ref0u8vtofeotuh34'
+    '_OpacInlislite' => '05b5b41d16e86bdf3d11d4873e49ab0d980c65a3d17461c4ed9f9b0dc584365aa:2:{i:0;s:14:\"_OpacInlislite\";i:1;s:32:\"BtkyvuKgq8Fwb_JNK2NJXF1QpGyYp8zZ\";}'
+    'PHPSESSID' => 'el1onombu4njvcititobmk3ii4'
+    '_csrf' => 'af53f28b9899c040fcfd3e7ff2a8ef4386af6172d1a488299267af7b2db54427a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"QaBnQLa39yf_WzigQn-3k_Uh04kvFkjJ\";}'
+    '_keanggotaanInlislite' => '98f101362526e014c2d61160be5f7982d789544a1776e65248fe0b762826481ca:2:{i:0;s:21:\"_keanggotaanInlislite\";i:1;s:32:\"O_XfrUv6iTK5CMq9dqh65yg7tJo8u3qd\";}'
+    'peminjamanmandiri' => '59d9efe4f788267e501050209f8cccfcf18b5472e8ce252ae5b6bbab20740bfca:2:{i:0;s:17:\"peminjamanmandiri\";i:1;s:32:\"Blkit6sR5mTCL1l-cHS0-GQQiqua1KgH\";}'
+    'keanggotaanSession' => 'spborfsafpl91bs9df6kmabqu1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/inlislite3/opac/profile/opac'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8123'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"89\", \"Chromium\";v=\"89\", \";Not A Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity=af3e2a0e951dec577795a0c5ffd91cd682a11d709a13aa959f261807f7b4af33a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A17%3A%22%5B33%2Cnull%2C2592000%5D%22%3B%7D; _backendInlislite=8fe846c6c0cd49bcbb060ec1bab755022c18d566625eb1de421b3bf4fe551b07a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_backendInlislite%22%3Bi%3A1%3Bs%3A32%3A%22ttPUDPsXCpo-a7bVDFWS2IrZPo9cvCnS%22%3B%7D; backendSession=s7t0q9h49ref0u8vtofeotuh34; _OpacInlislite=05b5b41d16e86bdf3d11d4873e49ab0d980c65a3d17461c4ed9f9b0dc584365aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_OpacInlislite%22%3Bi%3A1%3Bs%3A32%3A%22BtkyvuKgq8Fwb_JNK2NJXF1QpGyYp8zZ%22%3B%7D; PHPSESSID=el1onombu4njvcititobmk3ii4; _csrf=af53f28b9899c040fcfd3e7ff2a8ef4386af6172d1a488299267af7b2db54427a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22QaBnQLa39yf_WzigQn-3k_Uh04kvFkjJ%22%3B%7D; _keanggotaanInlislite=98f101362526e014c2d61160be5f7982d789544a1776e65248fe0b762826481ca%3A2%3A%7Bi%3A0%3Bs%3A21%3A%22_keanggotaanInlislite%22%3Bi%3A1%3Bs%3A32%3A%22O_XfrUv6iTK5CMq9dqh65yg7tJo8u3qd%22%3B%7D; peminjamanmandiri=59d9efe4f788267e501050209f8cccfcf18b5472e8ce252ae5b6bbab20740bfca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22peminjamanmandiri%22%3Bi%3A1%3Bs%3A32%3A%22Blkit6sR5mTCL1l-cHS0-GQQiqua1KgH%22%3B%7D; keanggotaanSession=spborfsafpl91bs9df6kmabqu1'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\laragon\\bin\\php\\php-7.2.19-Win32-VC15-x64;C:\\ProgramData\\ComposerSetup\\bin;C:\\flutter\\bin;;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Users\\ipas\\AppData\\Local\\Programs\\Python\\Python38\\Scripts\\;C:\\Users\\ipas\\AppData\\Local\\Programs\\Python\\Python38\\;C:\\laragon\\bin;C:\\laragon\\bin\\apache\\httpd-2.4.35-win64-VC15\\bin;C:\\laragon\\bin\\composer;C:\\laragon\\bin\\git\\bin;C:\\laragon\\bin\\git\\cmd;C:\\laragon\\bin\\git\\mingw64\\bin;C:\\laragon\\bin\\git\\usr\\bin;C:\\laragon\\bin\\laragon\\utils;C:\\laragon\\bin\\mysql\\mysql-5.7.24-winx64\\bin;C:\\laragon\\bin\\nginx\\nginx-1.16.0;C:\\laragon\\bin\\ngrok;C:\\laragon\\bin\\nodejs\\node-v12;C:\\laragon\\bin\\notepad++;C:\\laragon\\bin\\php\\php-7.2.19-Win32-VC15-x64;C:\\laragon\\bin\\putty;C:\\laragon\\bin\\redis\\redis-x64-3.2.100;C:\\laragon\\bin\\telnet;C:\\laragon\\usr\\bin;C:\\Users\\ipas\\AppData\\Local\\Yarn\\config\\global\\node_modules\\.bin;C:\\Users\\ipas\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\ipas\\AppData\\Roaming\\npm;C:\\Users\\ipas\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\heroku\\bin;C:\\Users\\ipas\\AppData\\Local\\Android\\Sdk\\platform-tools;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19 Server at localhost Port 8123</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8123'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/inlislite3/opac/index.php'
+    'REMOTE_PORT' => '55150'
+    'REDIRECT_URL' => 'http://localhost:8123/inlislite3/opac/profile/opac'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/inlislite3/opac/profile/opac'
+    'SCRIPT_NAME' => '/inlislite3/opac/index.php'
+    'PHP_SELF' => '/inlislite3/opac/index.php'
+    'REQUEST_TIME_FLOAT' => 1617003553.26
+    'REQUEST_TIME' => 1617003553
+]
+2021-03-29 14:39:24 [::1][-][spborfsafpl91bs9df6kmabqu1][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "opac".' in C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('opac', Array)
+#1 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\inlislite3\opac\index.php(26): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Halaman tidak ditemukan.' in C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\inlislite3\opac\index.php(26): yii\base\Application->run()
+#2 {main}
+2021-03-29 14:39:24 [::1][-][spborfsafpl91bs9df6kmabqu1][info][application] $_COOKIE = [
+    '_identity' => 'af3e2a0e951dec577795a0c5ffd91cd682a11d709a13aa959f261807f7b4af33a:2:{i:0;s:9:\"_identity\";i:1;s:17:\"[33,null,2592000]\";}'
+    '_backendInlislite' => '8fe846c6c0cd49bcbb060ec1bab755022c18d566625eb1de421b3bf4fe551b07a:2:{i:0;s:17:\"_backendInlislite\";i:1;s:32:\"ttPUDPsXCpo-a7bVDFWS2IrZPo9cvCnS\";}'
+    'backendSession' => 's7t0q9h49ref0u8vtofeotuh34'
+    '_OpacInlislite' => '05b5b41d16e86bdf3d11d4873e49ab0d980c65a3d17461c4ed9f9b0dc584365aa:2:{i:0;s:14:\"_OpacInlislite\";i:1;s:32:\"BtkyvuKgq8Fwb_JNK2NJXF1QpGyYp8zZ\";}'
+    'PHPSESSID' => 'el1onombu4njvcititobmk3ii4'
+    '_csrf' => 'af53f28b9899c040fcfd3e7ff2a8ef4386af6172d1a488299267af7b2db54427a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"QaBnQLa39yf_WzigQn-3k_Uh04kvFkjJ\";}'
+    '_keanggotaanInlislite' => '98f101362526e014c2d61160be5f7982d789544a1776e65248fe0b762826481ca:2:{i:0;s:21:\"_keanggotaanInlislite\";i:1;s:32:\"O_XfrUv6iTK5CMq9dqh65yg7tJo8u3qd\";}'
+    'peminjamanmandiri' => '59d9efe4f788267e501050209f8cccfcf18b5472e8ce252ae5b6bbab20740bfca:2:{i:0;s:17:\"peminjamanmandiri\";i:1;s:32:\"Blkit6sR5mTCL1l-cHS0-GQQiqua1KgH\";}'
+    'keanggotaanSession' => 'spborfsafpl91bs9df6kmabqu1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/inlislite3/opac/opac'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8123'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"89\", \"Chromium\";v=\"89\", \";Not A Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity=af3e2a0e951dec577795a0c5ffd91cd682a11d709a13aa959f261807f7b4af33a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A17%3A%22%5B33%2Cnull%2C2592000%5D%22%3B%7D; _backendInlislite=8fe846c6c0cd49bcbb060ec1bab755022c18d566625eb1de421b3bf4fe551b07a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_backendInlislite%22%3Bi%3A1%3Bs%3A32%3A%22ttPUDPsXCpo-a7bVDFWS2IrZPo9cvCnS%22%3B%7D; backendSession=s7t0q9h49ref0u8vtofeotuh34; _OpacInlislite=05b5b41d16e86bdf3d11d4873e49ab0d980c65a3d17461c4ed9f9b0dc584365aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_OpacInlislite%22%3Bi%3A1%3Bs%3A32%3A%22BtkyvuKgq8Fwb_JNK2NJXF1QpGyYp8zZ%22%3B%7D; PHPSESSID=el1onombu4njvcititobmk3ii4; _csrf=af53f28b9899c040fcfd3e7ff2a8ef4386af6172d1a488299267af7b2db54427a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22QaBnQLa39yf_WzigQn-3k_Uh04kvFkjJ%22%3B%7D; _keanggotaanInlislite=98f101362526e014c2d61160be5f7982d789544a1776e65248fe0b762826481ca%3A2%3A%7Bi%3A0%3Bs%3A21%3A%22_keanggotaanInlislite%22%3Bi%3A1%3Bs%3A32%3A%22O_XfrUv6iTK5CMq9dqh65yg7tJo8u3qd%22%3B%7D; peminjamanmandiri=59d9efe4f788267e501050209f8cccfcf18b5472e8ce252ae5b6bbab20740bfca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22peminjamanmandiri%22%3Bi%3A1%3Bs%3A32%3A%22Blkit6sR5mTCL1l-cHS0-GQQiqua1KgH%22%3B%7D; keanggotaanSession=spborfsafpl91bs9df6kmabqu1'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\laragon\\bin\\php\\php-7.2.19-Win32-VC15-x64;C:\\ProgramData\\ComposerSetup\\bin;C:\\flutter\\bin;;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Users\\ipas\\AppData\\Local\\Programs\\Python\\Python38\\Scripts\\;C:\\Users\\ipas\\AppData\\Local\\Programs\\Python\\Python38\\;C:\\laragon\\bin;C:\\laragon\\bin\\apache\\httpd-2.4.35-win64-VC15\\bin;C:\\laragon\\bin\\composer;C:\\laragon\\bin\\git\\bin;C:\\laragon\\bin\\git\\cmd;C:\\laragon\\bin\\git\\mingw64\\bin;C:\\laragon\\bin\\git\\usr\\bin;C:\\laragon\\bin\\laragon\\utils;C:\\laragon\\bin\\mysql\\mysql-5.7.24-winx64\\bin;C:\\laragon\\bin\\nginx\\nginx-1.16.0;C:\\laragon\\bin\\ngrok;C:\\laragon\\bin\\nodejs\\node-v12;C:\\laragon\\bin\\notepad++;C:\\laragon\\bin\\php\\php-7.2.19-Win32-VC15-x64;C:\\laragon\\bin\\putty;C:\\laragon\\bin\\redis\\redis-x64-3.2.100;C:\\laragon\\bin\\telnet;C:\\laragon\\usr\\bin;C:\\Users\\ipas\\AppData\\Local\\Yarn\\config\\global\\node_modules\\.bin;C:\\Users\\ipas\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\ipas\\AppData\\Roaming\\npm;C:\\Users\\ipas\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\heroku\\bin;C:\\Users\\ipas\\AppData\\Local\\Android\\Sdk\\platform-tools;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19 Server at localhost Port 8123</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8123'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/inlislite3/opac/index.php'
+    'REMOTE_PORT' => '55166'
+    'REDIRECT_URL' => 'http://localhost:8123/inlislite3/opac/opac'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/inlislite3/opac/opac'
+    'SCRIPT_NAME' => '/inlislite3/opac/index.php'
+    'PHP_SELF' => '/inlislite3/opac/index.php'
+    'REQUEST_TIME_FLOAT' => 1617003564.023
+    'REQUEST_TIME' => 1617003564
+]
+2021-03-30 08:19:56 [::1][-][j2id6732etda1fa6ev71cn4u74][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Response content must not be an array.' in C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\web\Response.php:960
+Stack trace:
+#0 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\web\Response.php(311): yii\web\Response->prepare()
+#1 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Application.php(381): yii\web\Response->send()
+#2 C:\xampp\htdocs\inlislite3\opac\index.php(26): yii\base\Application->run()
+#3 {main}
+2021-03-30 08:19:56 [::1][-][j2id6732etda1fa6ev71cn4u74][info][application] $_COOKIE = [
+    '_identity' => 'af3e2a0e951dec577795a0c5ffd91cd682a11d709a13aa959f261807f7b4af33a:2:{i:0;s:9:\"_identity\";i:1;s:17:\"[33,null,2592000]\";}'
+    '_backendInlislite' => '091f32c41ecb7f04ed9010d8867a9630d97bf21ffdb138292e9cc362c1094f9fa:2:{i:0;s:17:\"_backendInlislite\";i:1;s:32:\"FcVVBfRg1wEZ8ZGIVpA86fLO_K6Nc8RT\";}'
+    'backendSession' => 'lnb8ftpqr249301umg33bfirr5'
+    'PHPSESSID' => 'rjv4kcvdeihhesa1s9k86qt5s5'
+    '_csrf' => '404bad420c47618341475e5f299fa8d7f1cab889d5afef0ac3a007ec7e0adc7fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fW8JFFU844ZxNdffQtb8QeWLk3rbYxTl\";}'
+    '_OpacInlislite' => '2d51c20650e19514b9899d1a1783c4263ae4bb8a254b618d4af3ce686e00c91aa:2:{i:0;s:14:\"_OpacInlislite\";i:1;s:32:\"p4NGWL-S7E52wU9biflodkkX7OG5ReR1\";}'
+    'keanggotaanSession' => 'j2id6732etda1fa6ev71cn4u74'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/inlislite3/opac/'
+    '__id' => 2
+    '__NoAnggota' => '21032700001'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8123'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"89\", \"Chromium\";v=\"89\", \";Not A Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity=af3e2a0e951dec577795a0c5ffd91cd682a11d709a13aa959f261807f7b4af33a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A17%3A%22%5B33%2Cnull%2C2592000%5D%22%3B%7D; _backendInlislite=091f32c41ecb7f04ed9010d8867a9630d97bf21ffdb138292e9cc362c1094f9fa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_backendInlislite%22%3Bi%3A1%3Bs%3A32%3A%22FcVVBfRg1wEZ8ZGIVpA86fLO_K6Nc8RT%22%3B%7D; backendSession=lnb8ftpqr249301umg33bfirr5; PHPSESSID=rjv4kcvdeihhesa1s9k86qt5s5; _csrf=404bad420c47618341475e5f299fa8d7f1cab889d5afef0ac3a007ec7e0adc7fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fW8JFFU844ZxNdffQtb8QeWLk3rbYxTl%22%3B%7D; _OpacInlislite=2d51c20650e19514b9899d1a1783c4263ae4bb8a254b618d4af3ce686e00c91aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_OpacInlislite%22%3Bi%3A1%3Bs%3A32%3A%22p4NGWL-S7E52wU9biflodkkX7OG5ReR1%22%3B%7D; keanggotaanSession=j2id6732etda1fa6ev71cn4u74'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\laragon\\bin\\php\\php-7.2.19-Win32-VC15-x64;C:\\ProgramData\\ComposerSetup\\bin;C:\\flutter\\bin;;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Users\\ipas\\AppData\\Local\\Programs\\Python\\Python38\\Scripts\\;C:\\Users\\ipas\\AppData\\Local\\Programs\\Python\\Python38\\;C:\\laragon\\bin;C:\\laragon\\bin\\apache\\httpd-2.4.35-win64-VC15\\bin;C:\\laragon\\bin\\composer;C:\\laragon\\bin\\git\\bin;C:\\laragon\\bin\\git\\cmd;C:\\laragon\\bin\\git\\mingw64\\bin;C:\\laragon\\bin\\git\\usr\\bin;C:\\laragon\\bin\\laragon\\utils;C:\\laragon\\bin\\mysql\\mysql-5.7.24-winx64\\bin;C:\\laragon\\bin\\nginx\\nginx-1.16.0;C:\\laragon\\bin\\ngrok;C:\\laragon\\bin\\nodejs\\node-v12;C:\\laragon\\bin\\notepad++;C:\\laragon\\bin\\php\\php-7.2.19-Win32-VC15-x64;C:\\laragon\\bin\\putty;C:\\laragon\\bin\\redis\\redis-x64-3.2.100;C:\\laragon\\bin\\telnet;C:\\laragon\\usr\\bin;C:\\Users\\ipas\\AppData\\Local\\Yarn\\config\\global\\node_modules\\.bin;C:\\Users\\ipas\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\ipas\\AppData\\Roaming\\npm;C:\\Users\\ipas\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\heroku\\bin;C:\\Users\\ipas\\AppData\\Local\\Android\\Sdk\\platform-tools;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19 Server at localhost Port 8123</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8123'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/inlislite3/opac/index.php'
+    'REMOTE_PORT' => '58913'
+    'REDIRECT_URL' => 'http://localhost:8123/inlislite3/opac/profile'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/inlislite3/opac/profile'
+    'SCRIPT_NAME' => '/inlislite3/opac/index.php'
+    'PHP_SELF' => '/inlislite3/opac/index.php'
+    'REQUEST_TIME_FLOAT' => 1617067196.217
+    'REQUEST_TIME' => 1617067196
+]
+2021-03-30 08:57:28 [::1][-][3s8t5qutmm3vdnm84bqqu23e53][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'date() expects parameter 2 to be long, string given' in C:\xampp\htdocs\inlislite3\opac\views\profile\index.php:64
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'date() expects ...', 'C:\\xampp\\htdocs...', 64, Array)
+#1 C:\xampp\htdocs\inlislite3\opac\views\profile\index.php(64): date('2022-02-16 00:0...', 'dd-MM-YYYY')
+#2 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\View.php(325): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(opac\controllers\ProfileController))
+#5 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Controller.php(377): yii\base\View->render('index', Array, Object(opac\controllers\ProfileController))
+#6 C:\xampp\htdocs\inlislite3\opac\controllers\ProfileController.php(52): yii\base\Controller->render('index', Array)
+#7 [internal function]: opac\controllers\ProfileController->actionIndex()
+#8 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('', Array)
+#11 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('profile', Array)
+#12 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\xampp\htdocs\inlislite3\opac\index.php(26): yii\base\Application->run()
+#14 {main}
+2021-03-30 08:57:28 [::1][-][3s8t5qutmm3vdnm84bqqu23e53][info][application] $_COOKIE = [
+    '_identity' => 'af3e2a0e951dec577795a0c5ffd91cd682a11d709a13aa959f261807f7b4af33a:2:{i:0;s:9:\"_identity\";i:1;s:17:\"[33,null,2592000]\";}'
+    '_backendInlislite' => '091f32c41ecb7f04ed9010d8867a9630d97bf21ffdb138292e9cc362c1094f9fa:2:{i:0;s:17:\"_backendInlislite\";i:1;s:32:\"FcVVBfRg1wEZ8ZGIVpA86fLO_K6Nc8RT\";}'
+    'backendSession' => 'lnb8ftpqr249301umg33bfirr5'
+    'PHPSESSID' => 'rjv4kcvdeihhesa1s9k86qt5s5'
+    '_csrf' => '404bad420c47618341475e5f299fa8d7f1cab889d5afef0ac3a007ec7e0adc7fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fW8JFFU844ZxNdffQtb8QeWLk3rbYxTl\";}'
+    '_OpacInlislite' => '2d51c20650e19514b9899d1a1783c4263ae4bb8a254b618d4af3ce686e00c91aa:2:{i:0;s:14:\"_OpacInlislite\";i:1;s:32:\"p4NGWL-S7E52wU9biflodkkX7OG5ReR1\";}'
+    'keanggotaanSession' => '3s8t5qutmm3vdnm84bqqu23e53'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/inlislite3/opac/profile'
+    '__id' => 1
+    '__NoAnggota' => '21021600001'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8123'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"89\", \"Chromium\";v=\"89\", \";Not A Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity=af3e2a0e951dec577795a0c5ffd91cd682a11d709a13aa959f261807f7b4af33a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A17%3A%22%5B33%2Cnull%2C2592000%5D%22%3B%7D; _backendInlislite=091f32c41ecb7f04ed9010d8867a9630d97bf21ffdb138292e9cc362c1094f9fa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_backendInlislite%22%3Bi%3A1%3Bs%3A32%3A%22FcVVBfRg1wEZ8ZGIVpA86fLO_K6Nc8RT%22%3B%7D; backendSession=lnb8ftpqr249301umg33bfirr5; PHPSESSID=rjv4kcvdeihhesa1s9k86qt5s5; _csrf=404bad420c47618341475e5f299fa8d7f1cab889d5afef0ac3a007ec7e0adc7fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fW8JFFU844ZxNdffQtb8QeWLk3rbYxTl%22%3B%7D; _OpacInlislite=2d51c20650e19514b9899d1a1783c4263ae4bb8a254b618d4af3ce686e00c91aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_OpacInlislite%22%3Bi%3A1%3Bs%3A32%3A%22p4NGWL-S7E52wU9biflodkkX7OG5ReR1%22%3B%7D; keanggotaanSession=3s8t5qutmm3vdnm84bqqu23e53'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\laragon\\bin\\php\\php-7.2.19-Win32-VC15-x64;C:\\ProgramData\\ComposerSetup\\bin;C:\\flutter\\bin;;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Users\\ipas\\AppData\\Local\\Programs\\Python\\Python38\\Scripts\\;C:\\Users\\ipas\\AppData\\Local\\Programs\\Python\\Python38\\;C:\\laragon\\bin;C:\\laragon\\bin\\apache\\httpd-2.4.35-win64-VC15\\bin;C:\\laragon\\bin\\composer;C:\\laragon\\bin\\git\\bin;C:\\laragon\\bin\\git\\cmd;C:\\laragon\\bin\\git\\mingw64\\bin;C:\\laragon\\bin\\git\\usr\\bin;C:\\laragon\\bin\\laragon\\utils;C:\\laragon\\bin\\mysql\\mysql-5.7.24-winx64\\bin;C:\\laragon\\bin\\nginx\\nginx-1.16.0;C:\\laragon\\bin\\ngrok;C:\\laragon\\bin\\nodejs\\node-v12;C:\\laragon\\bin\\notepad++;C:\\laragon\\bin\\php\\php-7.2.19-Win32-VC15-x64;C:\\laragon\\bin\\putty;C:\\laragon\\bin\\redis\\redis-x64-3.2.100;C:\\laragon\\bin\\telnet;C:\\laragon\\usr\\bin;C:\\Users\\ipas\\AppData\\Local\\Yarn\\config\\global\\node_modules\\.bin;C:\\Users\\ipas\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\ipas\\AppData\\Roaming\\npm;C:\\Users\\ipas\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\heroku\\bin;C:\\Users\\ipas\\AppData\\Local\\Android\\Sdk\\platform-tools;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19 Server at localhost Port 8123</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8123'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/inlislite3/opac/index.php'
+    'REMOTE_PORT' => '59454'
+    'REDIRECT_URL' => 'http://localhost:8123/inlislite3/opac/profile'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/inlislite3/opac/profile'
+    'SCRIPT_NAME' => '/inlislite3/opac/index.php'
+    'PHP_SELF' => '/inlislite3/opac/index.php'
+    'REQUEST_TIME_FLOAT' => 1617069447.839
+    'REQUEST_TIME' => 1617069447
+]
+2021-03-31 14:55:00 [::1][1][f049rdonl7t2jr13qr496akj51][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Maaf Data Yang anda cari tidak ditemukan' in C:\xampp\htdocs\inlislite3\opac\controllers\DetailOpacController.php:746
+Stack trace:
+#0 [internal function]: opac\controllers\DetailOpacController->actionIndex()
+#1 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('', Array)
+#4 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('detail-opac', Array)
+#5 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\xampp\htdocs\inlislite3\opac\index.php(26): yii\base\Application->run()
+#7 {main}
+2021-03-31 14:54:59 [::1][1][f049rdonl7t2jr13qr496akj51][info][application] $_GET = [
+    'action' => 'logDownload'
+    'ID' => '1'
+]
+
+$_COOKIE = [
+    '_backendInlislite' => '48202dd8fe4cef032d2725cad3fa7738778d26962ae9bdaa7bd304626b096e0ba:2:{i:0;s:17:\"_backendInlislite\";i:1;s:32:\"zJ8tZtTIXK0GEpKqmNDZnYdQqpFar98M\";}'
+    'PHPSESSID' => 'pr8sa86fva5tjst42hftjs64n0'
+    '_csrf' => '453f58061332c82d0da68d24992ce36c5794908e2d933a2aa878fa078a747acfa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"qXYP7nXRKXauJx7EvuP1fxIYAQOCiyK-\";}'
+    '_OpacInlislite' => '5358759e7cf8c591ecbdd75c11bed5d1e59e7acdadfa428e40a80168a4366f88a:2:{i:0;s:14:\"_OpacInlislite\";i:1;s:32:\"AvhtQpQitYTKxLz6ofVuPvELOKnJupxY\";}'
+    '_keanggotaanInlislite' => 'cb342940e1eb17fda3c6c36260e977e1a521348840de7d33626feb2f3efad629a:2:{i:0;s:21:\"_keanggotaanInlislite\";i:1;s:32:\"_ma6GihpNgpO0P6IAHt7poF8NBUeMD_7\";}'
+    'backendSession' => 'jkm9bi92t5iblpvblk1arcep44'
+    '_identity' => '9e6fe272bb732ed54ec46d9ba3c7706824fc6a75de7b7d8e4ed748f4c4b41bcea:2:{i:0;s:9:\"_identity\";i:1;s:17:\"[47,null,2592000]\";}'
+    'keanggotaanSession' => 'f049rdonl7t2jr13qr496akj51'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__returnUrl' => '/inlislite3/opac/detail-opac?id=1'
+    '__NoAnggota' => '21021600001'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8123'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"89\", \"Chromium\";v=\"89\", \";Not A Brand\";v=\"99\"'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_X_CSRF_TOKEN' => 'UE9OcnQ1MDkROSYGJUVhUCQWGjkMeUoPPykYByRDdXUfBCA4AUVIYA=='
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ORIGIN' => 'http://localhost:8123'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8123/inlislite3/opac/detail-opac?id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_backendInlislite=48202dd8fe4cef032d2725cad3fa7738778d26962ae9bdaa7bd304626b096e0ba%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_backendInlislite%22%3Bi%3A1%3Bs%3A32%3A%22zJ8tZtTIXK0GEpKqmNDZnYdQqpFar98M%22%3B%7D; PHPSESSID=pr8sa86fva5tjst42hftjs64n0; _csrf=453f58061332c82d0da68d24992ce36c5794908e2d933a2aa878fa078a747acfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22qXYP7nXRKXauJx7EvuP1fxIYAQOCiyK-%22%3B%7D; _OpacInlislite=5358759e7cf8c591ecbdd75c11bed5d1e59e7acdadfa428e40a80168a4366f88a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_OpacInlislite%22%3Bi%3A1%3Bs%3A32%3A%22AvhtQpQitYTKxLz6ofVuPvELOKnJupxY%22%3B%7D; _keanggotaanInlislite=cb342940e1eb17fda3c6c36260e977e1a521348840de7d33626feb2f3efad629a%3A2%3A%7Bi%3A0%3Bs%3A21%3A%22_keanggotaanInlislite%22%3Bi%3A1%3Bs%3A32%3A%22_ma6GihpNgpO0P6IAHt7poF8NBUeMD_7%22%3B%7D; backendSession=jkm9bi92t5iblpvblk1arcep44; _identity=9e6fe272bb732ed54ec46d9ba3c7706824fc6a75de7b7d8e4ed748f4c4b41bcea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A17%3A%22%5B47%2Cnull%2C2592000%5D%22%3B%7D; keanggotaanSession=f049rdonl7t2jr13qr496akj51'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\laragon\\bin\\php\\php-7.2.19-Win32-VC15-x64;C:\\ProgramData\\ComposerSetup\\bin;C:\\flutter\\bin;;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Users\\ipas\\AppData\\Local\\Programs\\Python\\Python38\\Scripts\\;C:\\Users\\ipas\\AppData\\Local\\Programs\\Python\\Python38\\;C:\\laragon\\bin;C:\\laragon\\bin\\apache\\httpd-2.4.35-win64-VC15\\bin;C:\\laragon\\bin\\composer;C:\\laragon\\bin\\git\\bin;C:\\laragon\\bin\\git\\cmd;C:\\laragon\\bin\\git\\mingw64\\bin;C:\\laragon\\bin\\git\\usr\\bin;C:\\laragon\\bin\\laragon\\utils;C:\\laragon\\bin\\mysql\\mysql-5.7.24-winx64\\bin;C:\\laragon\\bin\\nginx\\nginx-1.16.0;C:\\laragon\\bin\\ngrok;C:\\laragon\\bin\\nodejs\\node-v12;C:\\laragon\\bin\\notepad++;C:\\laragon\\bin\\php\\php-7.2.19-Win32-VC15-x64;C:\\laragon\\bin\\putty;C:\\laragon\\bin\\redis\\redis-x64-3.2.100;C:\\laragon\\bin\\telnet;C:\\laragon\\usr\\bin;C:\\Users\\ipas\\AppData\\Local\\Yarn\\config\\global\\node_modules\\.bin;C:\\Users\\ipas\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\ipas\\AppData\\Roaming\\npm;C:\\Users\\ipas\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\heroku\\bin;C:\\Users\\ipas\\AppData\\Local\\Android\\Sdk\\platform-tools;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19 Server at localhost Port 8123</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8123'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/inlislite3/opac/index.php'
+    'REMOTE_PORT' => '56471'
+    'REDIRECT_QUERY_STRING' => 'action=logDownload&ID=1'
+    'REDIRECT_URL' => 'http://localhost:8123/inlislite3/opac/detail-opac?action=logDownload&ID=1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'action=logDownload&ID=1'
+    'REQUEST_URI' => '/inlislite3/opac/detail-opac?action=logDownload&ID=1'
+    'SCRIPT_NAME' => '/inlislite3/opac/index.php'
+    'PHP_SELF' => '/inlislite3/opac/index.php'
+    'REQUEST_TIME_FLOAT' => 1617177298.845
+    'REQUEST_TIME' => 1617177298
+]
